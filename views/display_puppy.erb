@@ -9,8 +9,10 @@
       <% Puppy.all.each do |puppy| %>
         <li>Puppy Name:</li>
         <li><%=@puppy.name %></li>
-        <li>Puppy Breed: <%= @puppy.breed %></li>
-        <li>Puppy Age: <%= @puppy.age %></li>
+        <li>Puppy Breed:</li>
+        <li><%= @puppy.breed %></li>
+        <li>Puppy Age:</li>
+        <li><%= @puppy.age %></li>
       <% end %>
     </ul>
   </body>
