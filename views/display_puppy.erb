@@ -7,7 +7,7 @@
   <body>
     <ul>
       <% Puppies.all.each do |puppy| %>
-        <li><%= puppy.name %></li>
+        <li>Puppy Name: <%= puppy.name %></li>
         <li><%= puppy[:breed] %></li>
         <li><%= puppy[:age] %></li>
       <% end %>
