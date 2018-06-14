@@ -7,9 +7,9 @@
   <body>
     <ul>
       <% Puppies.all.each do |puppy| %>
-        <li>Puppy Name: <%= puppy.name %></li>
-        <li>Puppy Breed: <%= puppy[:breed] %></li>
-        <li>Puppy <%= puppy[:age] %></li>
+        <li>Puppy Name: <%= @puppy.name %></li>
+        <li>Puppy Breed: <%= @puppy[:breed] %></li>
+        <li>Puppy Age: <%= @puppy[:age] %></li>
       <% end %>
     </ul>
   </body>
