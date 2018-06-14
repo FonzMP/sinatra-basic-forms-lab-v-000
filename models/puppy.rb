@@ -8,4 +8,8 @@ class Puppy
     @age = age
   end
 
+  def self.all
+    @@all
+  end
+
 end
